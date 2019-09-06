@@ -19,6 +19,7 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'mini_racer', platforms: :ruby
 gem 'will_paginate', '~> 3.1', '>= 3.1.8'
 gem 'bootstrap-will_paginate', '~> 1.0'
+gem 'rails-controller-testing'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -59,8 +60,7 @@ group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
-  # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
+  gem 'webdrivers', '~> 3.0'
 end
 
 group :production do 
